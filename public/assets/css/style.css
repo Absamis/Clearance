@@ -1,0 +1,139 @@
+a,
+a:hover {
+    text-decoration: none;
+}
+.p-relative {
+    position: relative;
+}
+.form-label {
+    font-size: 18px;
+}
+.form-input-group {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    background: rgb(243, 239, 239);
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+.form-input-group .input-append {
+    text-align: center;
+    padding: 6px 9px 6px 12px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.form-input-group .form-input {
+    border: none;
+    padding: 7px 10px;
+    width: 100%;
+    /* font-size: 17px; */
+    background: inherit;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.abs-btn {
+    border: 1px solid #eee;
+    padding: 7px 13px;
+    border-radius: 7px;
+    background: transparent;
+}
+.abs-btn.round {
+    border-radius: 20px;
+}
+.preloader {
+    position: fixed;
+    top: 0%;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 200;
+}
+.error {
+    display: block;
+    color: red;
+}
+.bg-purple {
+    background-color: rgb(150, 40, 150);
+}
+.btn-purple {
+    background-color: rgb(187, 54, 187);
+    color: white;
+}
+.btn-purple:hover {
+    background-color: rgb(151, 39, 151);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+.content-middle {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.no-btn {
+    border: 1px solid #fefefe;
+    padding: 10px 12px;
+    outline: none;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+}
+.no-btn.active {
+    border-bottom: 3px solid rgb(150, 40, 150);
+    background-color: rgb(245, 193, 245);
+}
+.content-text {
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.text-gray {
+    color: #d3d3d3;
+}
+.notification-tab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.notification-tab.colored {
+    background-color: rgb(245, 179, 245);
+}
+.notification-tab.colored:hover {
+    color: white;
+    background-color: rgb(221, 107, 221);
+}
+.ad-tab.active {
+    background-color: rgb(248, 220, 178);
+    border-bottom: 3px solid rgb(250, 167, 43);
+    border-radius: 2px;
+}
+.bg-lightbrown {
+    background-color: rgb(248, 220, 178);
+}
+li.profile-list {
+    padding: 4px;
+    /* margin-top: 2px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li.profile-list .prop {
+    font-weight: bold;
+    font-size: 18px;
+}
+.pxys {
+    background-color: rgb(250, 228, 195);
+}
